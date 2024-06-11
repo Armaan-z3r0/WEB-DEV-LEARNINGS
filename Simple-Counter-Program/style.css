@@ -1,0 +1,21 @@
+#mylabel{
+    display: block;
+    font-size: 10em;
+    text-align: center;
+    font-family:Arial;
+}
+#btncontainer{
+    text-align: center;
+}
+.button{
+    padding: 3em;
+    font-size: 1.2em;
+    background-color:white ;
+    color: black;
+    transition-duration:  background-color 2.5ms ;
+    border-radius: 5em ; 
+    box-shadow: 0.5em 0.5em 0.3em rgba(0, 0, 0, 0.2);
+}
+.button:hover{
+    background-color: blue  ;
+}
